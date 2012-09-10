@@ -620,7 +620,8 @@ and don't need to be repeated here. Anything listed here will take precedence, h
   // super+delete isn't a built in command, but makes sense anyway
   { "keys": ["super+delete"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete to Hard EOL.sublime-macro"} },
   /**
-  // カタカナ変換を有効にするため、記述を無効にする  { "keys": ["ctrl+k"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete to Hard EOL.sublime-macro"} },
+  // カタカナ変換を有効にするため、記述を無効にする
+  { "keys": ["ctrl+k"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete to Hard EOL.sublime-macro"} },
   */
   { "keys": ["ctrl+l"], "command": "show_at_center" },
   { "keys": ["ctrl+o"], "command": "insert_snippet", "args": { "contents": "$0\n" } },
