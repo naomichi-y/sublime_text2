@@ -1,27 +1,48 @@
 {
-	"font_size": 12.0,
-	"font_face": "Ricty",
-	"highlight_line": true,
-	"ignored_packages":
-	[
-	],
-	"line_padding_top": 4,
-	"tab_size": 2,
-	"theme": "Phoenix Dark.sublime-theme",
-	"translate_tabs_to_spaces": true,
-	"vintage_start_in_command_mode": false,
-	"word_wrap": true,
-	"auto_match_enabled": false,
+  // フォントサイズ
+  "font_size": 12.0,
 
-	// ミニマップの現在表示エリアを枠線で囲む
-	"draw_minimap_border": true,
+  // フォント名
+  "font_face": "Ricty",
 
-	// 行末のホワイトスペースを除去する
-	"trim_trailing_white_space_on_save": true,
+  // スクリプトのハイライト化
+  "highlight_line": true,
 
-	// UTF-8 (UTF-16) で開けなかった場合の代替エンコーディング
-	"fallback_encoding": "Shift_JIS",
+  // Vimモードを有効化
+  "ignored_packages":
+  [
+  ],
 
-	// タイトルバーにファイルのフルパスを表示する
-	"show_full_path": true
+  // 行間
+  "line_padding_top": 4,
+
+  // タブ幅
+  "tab_size": 2,
+
+  // Sublime Text 2 のテーマ
+  "theme": "Phoenix Dark.sublime-theme",
+
+  // タブ入力をスペースに置き換える
+  "translate_tabs_to_spaces": true,
+
+  // 挿入モードで開始する
+  "vintage_start_in_command_mode": false,
+
+  // ウィンドウ幅に合わせて文字を折り返す
+  "word_wrap": true,
+
+  // 括弧の自動補完を行わない 
+  "auto_match_enabled": false,
+
+  // ミニマップの現在表示エリアを枠線で囲む
+  "draw_minimap_border": true,
+
+  // 行末のホワイトスペースを除去する
+  "trim_trailing_white_space_on_save": true,
+
+  // UTF-8 (UTF-16) で開けなかった場合の代替エンコーディング
+  "fallback_encoding": "Shift_JIS",
+
+  // タイトルバーにファイルのフルパスを表示する
+  "show_full_path": true
 }
