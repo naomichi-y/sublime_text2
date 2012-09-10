@@ -91,7 +91,7 @@ and don't need to be repeated here. Anything listed here will take precedence, h
   { "keys": ["super+["], "command": "unindent" },
 
   /**
-  // 日本語入力のオートコンプリートを有効にする
+  // 日本語入力のオートコンプリートを有効にするため、記述を無効にする
   { "keys": ["tab"], "command": "insert_best_completion", "args": {"default": "\t", "exact": true} },
   { "keys": ["tab"], "command": "insert_best_completion", "args": {"default": "\t", "exact": false},
     "context":
@@ -619,7 +619,9 @@ and don't need to be repeated here. Anything listed here will take precedence, h
   { "keys": ["super+backspace"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete to Hard BOL.sublime-macro"} },
   // super+delete isn't a built in command, but makes sense anyway
   { "keys": ["super+delete"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete to Hard EOL.sublime-macro"} },
-  { "keys": ["ctrl+k"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete to Hard EOL.sublime-macro"} },
+  /**
+  // カタカナ変換を有効にするため、記述を無効にする  { "keys": ["ctrl+k"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete to Hard EOL.sublime-macro"} },
+  */
   { "keys": ["ctrl+l"], "command": "show_at_center" },
   { "keys": ["ctrl+o"], "command": "insert_snippet", "args": { "contents": "$0\n" } },
   { "keys": ["ctrl+super+d"], "command": "noop" },
